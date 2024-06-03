@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Car Services</title>
+    <link rel="stylesheet" href="Tata_car.css">
+    <link rel="shortcut icon" type="x-ion" href="logo-1871976_1920.png">
+</head>
+
+
+
+<body>
+    <!-- this is nav bar section -->
+    <nav class="nav">
+        <div class="logo">
+            <img src="./tata logo.png" alt="">
+        </div>
+
+        <div class="item">
+            <a class="home-btn" href="/">Home</a>
+            <a href="/">Rent Car</a>
+            <a href="/">Contact us</a>
+            <a href="/">About us</a>
+            <a href="/">Blog</a>
+        </div>
+
+        <div class="btn">
+
+            <input class="search-btn" type="search" value="Search" placeholder="Search">
+
+            <input class="login" type="button" value="Log in">
+            <input type="button" value="Sign up">
+        
+            <div class="dark-theme" onclick=darkTheme() ondblclick="lightTheme()">
+                <button class="btn-for-theme" id="tooltip">
+
+                    <img class="image-sun" src="./dark theme sun.png" alt="darktheme mode">
+                    <span id="tooltipText">Click here for Dark Theme <br>& Double Click for white theme</span>
+
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    
+<!--thisi is scroller section  -->
+    <section class="scroll">
+        <div>
+            <marquee class="scrolltext" onmouseover="this.stop()" onmouseout="this.start();">We are delighted for visiting to our website,For more information Contact us for more information (+91) 99XX XXX XXX,<span>Pavan Kumar</span>,24 Hour services</marquee>
+            <h1 class="title">TATA Motors Services...</h1>
+        </div>
+    </section>
+
+<!-- this is home section -->
+    <div class="home">
+        <div class="main-sec">
+            <div class="left">
+                
+                <p class="txt1">Easy And Fast Way To <span style="color: #0984d6e2;">Rent</span> Your Car...</p>
+                <p> We are proudly saying that providing luxurious cars</p>
+                <div class="btn">
+                    <input class="car" type="button" value="Rent Car" id="btn-for-click">
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="/Tata-Motors-PNG-Isolated-Image-preview.png" alt="It's loading wait for a while... ">
+            </div>
+        </div>
+    </div>
+
+
+<!-- this is the informantion about location details -->
+    <section class="loc-sec">
+        <div class="main-sec" id="locationDtl">
+            <div class="Pick">
+                <label for="">Pick up Location</label>
+                <p class="fa-solid fa-location-dot">Hyderabad,India</p>
+            </div>
+
+            <div class="Pick">
+                <label for="">Pick up Location</label>
+                <p class="fa-solid fa-location-dot">Surat,India</p>
+            </div>
+
+
+            <div class="Pick">
+                <label for="location">Pick Up Date</label>
+                <p><i class="fa-solid fa-calendar-days"></i> 16-05-2024</p>
+                <input type="date" name="date" id="">
+            </div>
+
+            <div class="Pick">
+                <label for="location">Return Date</label>
+                <p><i class="fa-solid fa-calendar-days"></i> 18-05-2024</p>
+            </div>
+
+            <div class="Pick">
+                <input type="button" value="Search Car">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<!-- this is complete details of all cars about it's models -->
+    <section class="car-sec">
+        <div class="txt">
+            <p class="txt1">Latest <span>Inventory</span></p>
+            <p class="txt2">Lorem ipsum dolor sit amet? Mollitia voluptas voluptatum natus officia corrupti, minus aspernatur aut? Ut, obcaecati velit?</p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box" id="car-details1">
+                <img style="width: 365px;" 
+                    src="/TATA_image1_tata-tiago-tata-png.png"
+                    alt="">
+
+
+                <div class="details">
+                    <p class="car-name">Tata Super Car</p>
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>2.05 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="box" id="car-details2">
+                <img style="width: 365px;"
+                    src="/TATA_image2_motors-car-png.png"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">TATA Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="box" id="car-details3">
+                <img style="width: 365px;"
+                    src="/Tata_image3_motors.png"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">TATA Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="box" id="car-details4">
+                <img style="width: 365px;"
+                    src="/Tata_image4_motor.png"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">TATA Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="box" id="car-details5">
+                <img style="width: 365px;"
+                    src="/tata_image5_motors.png">
+                <div class="details">
+
+                    <p class="car-name">TATA Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="box" id="car-details6">
+                <img style="width: 365px;"
+                    src="/tata_image6_motors.png"
+                    alt="">
+                    
+                <div class="details">
+                    <p class="car-name">TATA Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>3.22 Crore</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn" >
+            <button type="button" id="btn1" >View All</button>
+        </div>
+
+        
+    </section>
+
+
+
+
+
+
+
+<!-- this is support section -->
+    <section class="support-sec">
+        <div class="txt">
+            <p class="txt1">Why <span> Choose</span> Us</p>
+            <p><span><b>Lorem</b></span> ipsum dolor sit amet consectetur adipisicing elit. Sit beatae ab animi</p>
+        </div>
+
+
+        <div class="main-sec">
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+
+                <div class="txt-sec">
+                    <p class="txt1"> 24 Hour Support</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sit aut
+                         totam voluptatem quae nostrum </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-flag-checkered"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Best Price</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Verified License</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-regular fa-circle-xmark"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Free Cancelation</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+        
+    
+
+
+
+
+
+
+
+
+
+    <section class="achie-sec">
+        <div class="txt">
+            <p class="txt1"> Our <span>Achievement</span></p>
+            <p><span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Quod molestias commodi dicta</p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <p class="txt1">4000+</p>
+                <p>Active Member</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">3000+</p>
+                <p>Car Colors</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">1500+</p>
+                <p>Car Models</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">10k+</p>
+                <p>Positive Ratings</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="start-sec">
+
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Ready to get Start?</p>
+                <p class="txt2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eius labore iste modi maxime </p>
+                <div>
+                   <button class="btn"> Contact Us</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="verna.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./Tata_car.js"></script>
+</body>
+</html>
