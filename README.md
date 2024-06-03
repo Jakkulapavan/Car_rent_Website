@@ -12,7 +12,8 @@ This project is a web application for a car rental service. Users can browse ava
 # Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jakkual pavan kumar/car-rental-website.git
+   git clone https://github.com/Jakkulapavan/car-rental-website.git
+   
 
 2)Navigate to the project directory:
 cd car-rental-website
